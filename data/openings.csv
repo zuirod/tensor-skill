@@ -1,0 +1,32 @@
+game_id,hypothetical,player,opening_type,opening,kingdom
+5553096,0,2,4-3,Militia-Silver,Moat-Harbinger-Vassal-Militia-Poacher-Throne Room-Laboratory-Mine-Sentry-Witch
+5558534,0,1,4-3,Chapel-Silver,Cellar-Chapel-Moat-Village-Gardens-Smithy-Throne Room-Bandit-Mine-Sentry
+5576934,0,2,3-4,Silver-Remodel,Moat-Harbinger-Merchant-Bureaucrat-Poacher-Remodel-Council Room-Festival-Library-Market
+5656537,0,1,4-3,Poacher-Chapel,Cellar-Chapel-Moat-Harbinger-Vassal-Poacher-Throne Room-Council Room-Market-Mine
+5579553,0,2,3-4,Silver-Poacher,Cellar-Moat-Merchant-Vassal-Workshop-Poacher-Festival-Laboratory-Market-Sentry
+5657702,0,1,4-3,Remodel-Silver,Cellar-Harbinger-Gardens-Militia-Poacher-Remodel-Smithy-Throne Room-Bandit-Festival
+5715500,0,2,2-5,Chapel-Laboratory,Chapel-Merchant-Workshop-Bureaucrat-Gardens-Moneylender-Bandit-Laboratory-Market-Sentry
+5760302,0,2,4-3,Poacher-Chapel,Cellar-Chapel-Harbinger-Vassal-Workshop-Bureaucrat-Poacher-Throne Room-Laboratory-Artisan
+5760557,0,1,3-4,Silver-Merchant,Cellar-Merchant-Gardens-Throne Room-Council Room-Festival-Laboratory-Library-Market-Artisan
+5788864,0,2,5-2,Witch-Chapel,Chapel-Moat-Vassal-Bandit-Council Room-Festival-Laboratory-Mine-Witch-Artisan
+5844082,0,1,4-3,Moneylender-Silver,Merchant-Vassal-Workshop-Moneylender-Remodel-Bandit-Laboratory-Library-Sentry-Witch
+5869577,0,2,4-3,Smithy-Workshop,Cellar-Harbinger-Village-Workshop-Bureaucrat-Smithy-Throne Room-Laboratory-Market-Mine
+5903272,0,2,4-3,Moneylender-Silver,Harbinger-Workshop-Gardens-Moneylender-Remodel-Smithy-Festival-Library-Mine-Artisan
+5923306,0,2,3-4,Silver-Moneylender,Workshop-Militia-Moneylender-Poacher-Remodel-Throne Room-Bandit-Festival-Library-Market
+5924162,0,1,5-2,Sentry-Chapel,Cellar-Chapel-Village-Bureaucrat-Remodel-Smithy-Bandit-Council Room-Festival-Sentry
+5975251,0,1,5-2,Militia-Chapel,Chapel-Harbinger-Village-Workshop-Militia-Moneylender-Poacher-Council Room-Festival-Market
+5982614,0,1,3-4,Silver-Moneylender,Cellar-Moat-Gardens-Moneylender-Poacher-Smithy-Laboratory-Market-Sentry-Witch
+6033410,0,1,5-2,Sentry-,Cellar-Village-Bureaucrat-Militia-Poacher-Bandit-Library-Market-Sentry-Artisan
+6065802,0,1,4-3,Silver-Chapel,Chapel-Moat-Village-Workshop-Bureaucrat-Throne Room-Bandit-Market-Mine-Sentry
+6087460,0,2,4-3,Remodel-Silver,Cellar-Moat-Merchant-Village-Remodel-Smithy-Bandit-Library-Sentry-Witch
+6110766,0,1,4-3,Remodel-Silver,Harbinger-Vassal-Village-Remodel-Throne Room-Bandit-Festival-Laboratory-Library-Market
+6138790,0,2,4-3,Poacher-Chapel,Cellar-Chapel-Moat-Harbinger-Merchant-Vassal-Village-Gardens-Poacher-Festival
+6170038,0,1,4-3,Remodel-Silver,Bureaucrat-Gardens-Poacher-Remodel-Throne Room-Council Room-Mine-Sentry-Witch-Artisan
+6193342,0,2,4-3,Militia-Silver,Harbinger-Workshop-Bureaucrat-Militia-Poacher-Council Room-Laboratory-Library-Market-Sentry
+6227420,0,2,3-4,Silver-Militia,Merchant-Gardens-Militia-Moneylender-Remodel-Throne Room-Bandit-Festival-Laboratory-Sentry
+5558534,1,1,2-5,Chapel-Sentry,Cellar-Chapel-Moat-Village-Gardens-Smithy-Throne Room-Bandit-Mine-Sentry
+5656537,1,1,5-2,Market-Chapel,Cellar-Chapel-Moat-Harbinger-Vassal-Poacher-Throne Room-Council Room-Market-Mine
+5715500,1,2,3-4,Chapel-Silver,Chapel-Merchant-Workshop-Bureaucrat-Gardens-Moneylender-Bandit-Laboratory-Market-Sentry
+5975251,1,1,4-3,Militia-Chapel,Chapel-Harbinger-Village-Workshop-Militia-Moneylender-Poacher-Council Room-Festival-Market
+6193342,1,2,5-2,Sentry-,Harbinger-Workshop-Bureaucrat-Militia-Poacher-Council Room-Laboratory-Library-Market-Sentry
+6227420,1,2,5-2,Sentry-,Merchant-Gardens-Militia-Moneylender-Remodel-Throne Room-Bandit-Festival-Laboratory-Sentry
