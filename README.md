@@ -1,8 +1,12 @@
 # tensor-skill
 
-This is the sequel to [bskull-openings](https://github.com/zuirod/bskull-openings), in which the TrueSkill rating system was used to rank openings in the [bskull-openings dataset](https://github.com/zuirod/bskull-openings/tree/main/data) considering matches between openings as a 1 vs 1 game. In reality, each opening is made up of cards, so it is more appropriate to consider matches between openings as a team vs team game, allowing the model to generalize to openings not in the dataset. 
+Dominion is a game where a small advantage early on can snowball into a decisive advantage. As such, your opening buys (i.e., the cards you buy in the first two turns of the game) are very important in laying the foundation for your strategy throughout the rest of the game.
+
+This is the sequel to [bskull-openings](https://github.com/zuirod/bskull-openings), in which the TrueSkill rating system was used to rank openings in the [bskull-openings dataset](https://github.com/zuirod/bskull-openings/tree/main/data) by considering matches between openings as a 1 vs 1 game. In reality, each opening is made up of cards, so it is more appropriate to consider matches between openings as a team vs team game, allowing the model to generalize to openings not in the dataset. 
 
 TrueSkill is capable of modeling such games, but is based on the assumption that the skill of a team is the sum of the skills of its players. This assumption does not hold in this setting, so a latent factor model, explicitly modeling the cards and diminishing marginal utility, was used to assess the quality of different openings better than the TrueSkill rating system.
+
+If you are not familiar with dominion, learn to play for free at [Dominion Online](https://dominion.games/).
 
 ## Usage
 You can simply view in your browser: [How To Base Dominion Opening, Part 2](https://github.com/zuirod/tensor-skill/blob/main/How%20to%20Base%20Dominion%20Opening%2C%20Part%202.ipynb).
