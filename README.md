@@ -1,8 +1,8 @@
 # tensor-skill
 
-Dominion is a game where a small advantage early on can snowball into a decisive advantage. As such, your opening buys (i.e., the cards you buy in the first two turns of the game) are very important in laying the foundation for your strategy throughout the rest of the game.
+Dominion is a game where a small advantage early on can snowball into a decisive advantage later on. As such, your opening buys (i.e., the cards you buy in the first two turns of the game) are very important in laying the foundation for your strategy throughout the rest of the game.
 
-This is the sequel to [bskull-openings](https://github.com/zuirod/bskull-openings), in which the TrueSkill rating system was used to rank openings in the [bskull-openings dataset](https://github.com/zuirod/bskull-openings/tree/main/data) by considering matches between openings as a 1 vs 1 game. In reality, each opening is made up of cards, so it is more appropriate to consider matches between openings as a team vs team game, allowing the model to generalize to openings not in the dataset. 
+This is the sequel to [bskull-openings](https://github.com/zuirod/bskull-openings), in which the TrueSkill rating system was used to rank openings in the [bskull-openings dataset](https://github.com/zuirod/bskull-openings/tree/main/data) by considering matches between openings as a 1 vs 1 game. Although this approach effectively ranks the openings that were played, it is not able to generalize to openings that were not played. Moreover, it underutilizes the available comparisons between openings in the dataset. One way to overcome these limitations to is to explicitly model the cards that make up the openings and consider matches between openings as a team vs team game.
 
 TrueSkill is capable of modeling such games, but is based on the assumption that the skill of a team is the sum of the skills of its players. This assumption does not hold in this setting, so a latent factor model, explicitly modeling the cards and diminishing marginal utility, was used to assess the quality of different openings better than the TrueSkill rating system.
 
@@ -23,13 +23,13 @@ Run the appropriate commands at the Terminal (Mac/Linux) or Command Prompt (Wind
 
 ### Install with conda
 
-If you have [Anaconda or Miniconda](https://docs.conda.io/projects/continuumio-conda/en/latest/user-guide/install/index.html) installed, run:
+If you have [Anaconda or Miniconda](https://docs.conda.io/projects/continuumio-conda/en/latest/user-guide/install/index.html) installed:
 
-Create a conda environment:
+To create a conda environment, run:
 
 ```conda create --name tensor-skill --file requirements.txt```
 
-Activate the environment:
+To activate the environment, run:
 
 ```conda activate tensor-skill```
 
@@ -37,4 +37,4 @@ Activate the environment:
 
 Alternatively, if you have [Python](https://www.python.org/downloads/) installed, run:
 
-```pip install notebook pandas trueskill matplotlib tensorflow lxml scikit-learn```
+```pip install notebook pandas trueskill matplotlib tensorflow lxml scikit-learn tqdm```
